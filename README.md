@@ -3,9 +3,11 @@
 
 # faf-grid
 
-[![FAF GRID](https://mcpaas.live/grid/badge?npm=react)](https://mcpaas.live/grid?npm=react)
+[![FAF GRID](https://mcpaas.live/grid/badge?npm=faf-grid)](https://mcpaas.live/grid?npm=faf-grid)
 
 **Inspect any `package.json` through the FAF GRID — a debugging UI at [mcpaas.live/grid](https://mcpaas.live/grid).**
+
+> The badge above is faf-grid grading itself. Click it. The format that grades others has to grade itself first.
 
 ```bash
 npx faf-grid react
