@@ -38,3 +38,22 @@ and prints it. Each invocation is one HTTPS request. Memory:
 - The CLI does NOT do its own analysis. All classification logic stays
   on the Worker. If the Worker improves, every CLI user benefits at the
   next invocation.
+
+### What's NOT yet shipped (will earn the 0.2.0 mint)
+
+Per `feedback-semver-receipts-not-promises` — don't bump minor until
+receipts.
+
+- **WJTTC suite** — championship-grade tests across BRAKE / ENGINE /
+  AERO / RECEIPT tiers. Targeting:
+  - **BRAKE** — argv parsing, URL building, exit codes, stderr/stdout discipline
+  - **ENGINE** — each invocation hits the right `mcpaas.live/grid.txt?…` URL,
+    `--tsa` flips view correctly, `--open` spawns the right OS command
+  - **AERO** — help text accurate, `--version` matches `package.json`,
+    `MCPAAS_URL` env override works
+  - **RECEIPT (Tier 9)** — output conforms to `application/vnd.faf-grid`
+    grammar (same parser as the mcpaas-cf v1.5 audit suite)
+- **CAR Framework completion** — project.faf is the **Claim** (✅ shipped
+  Trophy 100% in this release); WJTTC will be the **Audit**; the `.taf`
+  receipts WJTTC produces will be the **Receipt**. The full triangle lands
+  with 0.2.0.

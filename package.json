@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/cli.ts",
-    "test": "echo \"No tests yet — golden-file tests land in 0.2.x\" && exit 0",
+    "test": "echo \"No WJTTC suite yet — championship-grade tests land in 0.2.x. CAR Framework: project.faf is the Claim ✓; WJTTC will be the Audit; .taf will be the Receipt.\" && exit 0",
     "prepublishOnly": "npm run build"
   },
   "files": [
