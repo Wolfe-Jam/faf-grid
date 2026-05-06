@@ -1,0 +1,52 @@
+{
+  "name": "faf-grid",
+  "version": "0.1.0",
+  "description": "Inspect any package.json or GitHub repo through the FAF GRID — a debugging UI at mcpaas.live/grid. CLI wrapper that fetches the canonical text view.",
+  "bin": {
+    "faf-grid": "./dist/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "test": "echo \"No tests yet — golden-file tests land in 0.2.x\" && exit 0",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT",
+  "author": "wolfejam <team@faf.one>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wolfe-Jam/faf-grid.git"
+  },
+  "homepage": "https://mcpaas.live/grid",
+  "bugs": {
+    "url": "https://github.com/Wolfe-Jam/faf-grid/issues"
+  },
+  "keywords": [
+    "grid",
+    "package.json",
+    "dependencies",
+    "deps",
+    "debugging",
+    "audit",
+    "tsa",
+    "faf",
+    "npm",
+    "mcpaas",
+    "cli"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  }
+}
