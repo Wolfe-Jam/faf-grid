@@ -1,4 +1,5 @@
-<!-- faf: faf-grid | TypeScript | Inspect any package.json or GitHub repo through the FAF GRID — a debugging UI at mcpaas.live/grid. CLI wrapper that fetches the canonical text view. -->
+<!-- faf: faf-grid | TypeScript | cli | Inspect any package.json or GitHub repo through the FAF GRID — a debugging UI at mcpaas.live/grid -->
+<!-- faf: doc=ai-context | claim=project.faf | score=100 | family=FAF | siblings=README.md,CHANGELOG.md,project.faf -->
 
 # CLAUDE.md — faf-grid
 
