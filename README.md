@@ -3,6 +3,7 @@
 
 # faf-grid
 
+[![FAF](https://mcpaas.live/badge/Wolfe-Jam/faf-grid.svg)](https://builder.faf.one)
 [![FAF GRID](https://mcpaas.live/grid/badge?npm=faf-grid)](https://mcpaas.live/grid?npm=faf-grid)
 
 **Inspect any `package.json` through the FAF GRID — a debugging UI at [mcpaas.live/grid](https://mcpaas.live/grid).**
