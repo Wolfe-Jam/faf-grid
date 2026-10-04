@@ -114,4 +114,4 @@ MIT — see LICENSE.
 
 ---
 
-*FAF defines. MD instructs. AI codes.*
+*FAF defines. AGENTS.md instructs. AI codes.*
