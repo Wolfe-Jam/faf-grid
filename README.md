@@ -8,6 +8,8 @@
 
 **Inspect any `package.json` through the FAF GRID — a debugging UI at [mcpaas.live/grid](https://mcpaas.live/grid).**
 
+⭐ [Star it on GitHub](https://github.com/Wolfe-Jam/faf-grid): bookmarks it for you, helps other devs find it too.
+
 > The badge above is faf-grid grading itself. Click it. The format that grades others has to grade itself first.
 
 ```bash
